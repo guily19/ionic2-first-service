@@ -14,7 +14,7 @@ import { TestProvider } from '../../providers/test-provider';
 })
 export class PageTwoPage {
 
-  constructor(public navCtrl: NavController, private testProvider: TestProvider) {}
+  constructor(public navCtrl: NavController, public testProvider: TestProvider) {}
 
   changeMessage(){
         this.testProvider.setMessage("Page two rocks!");
